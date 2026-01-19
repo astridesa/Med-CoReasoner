@@ -304,7 +304,7 @@ def load_globmedx_mcqa(subset: str, split: str) -> list[dict]:
     return dataset
 
 
-def load_globmedx_liveqa(subset: str, split: str) -> list[dict]:
+def load_multimedx_liveqa(subset: str, split: str) -> list[dict]:
     """
     Load the GlobalMed LiveQA dataset.
     Args:
@@ -341,7 +341,7 @@ def load_globmedx_liveqa(subset: str, split: str) -> list[dict]:
     return dataset
 
 
-def load_globmedx_bionli(subset: str, split: str) -> list[dict]:
+def load_multimedx_bionli(subset: str, split: str) -> list[dict]:
     """
     Load the GlobalMed BioNLI dataset.
     Args:

@@ -54,10 +54,10 @@ def parse_json(s: str) -> dict:
     Returns:
         dict: The parsed dictionary.
     """
-    # 移除对象末尾的多余逗号: ,}
+    
     s = re.sub(r",\s*}", "}", s)
 
-    # 移除数组末尾的多余逗号: ,]
+    
     s = re.sub(r",\s*]", "]", s)
     if is_valid_json(s):
         return json.loads(s)

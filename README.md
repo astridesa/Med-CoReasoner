@@ -1,8 +1,6 @@
 # Med-CoReasoner
 
-# Med-CoReasoner
-
-**Med-CoReasoner** is a multilingual medical reasoning agent that combines cross-lingual concept fusion with retrieval-augmented generation (RAG) for clinical question answering. It processes medical questions in both English and the target language, extracts key medical concepts, and fuses them using embedding-based similarity to produce accurate, knowledge-grounded answers.
+**Med-CoReasoner** is a multilingual medical reasoning agent that combines cross-lingual concept fusion with retrieval-augmented generation (RAG) for clinical question answering. It processes medical questions in both English and the target language, extracts key medical concepts, and fuses them using embedding-based similarity to produce accurate, knowledge-grounded answers. This repository also includes the sample data of MultiMed-X.
 
 ## Architecture
 
@@ -211,4 +209,4 @@ codes/
 ## License
 MultiMed-X comprises two tasks spanning seven non-English languages, and all data is distributed under the CC BY 4.0 license.
 
-The Usage of retrived corpus from MSD are under official permission.
+The Usage of retrived corpus from MSD is under official permission.

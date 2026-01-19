@@ -147,14 +147,11 @@ Each line contains:
   "question": "Medical question text",
   "options": "A. Option1\nB. Option2\nC. Option3\nD. Option4",
   "answer_idx": "A",
-  "en_answer": "A",
   "en_reasoning": "Detailed English reasoning process...",
-  "local_answer": "A",
   "local_reasoning": "Reasoning in target language...",
   "en_concept_chain": ["concept1", "concept2", "concept3"],
   "local_concept_chain": ["概念1", "概念2", "概念3"],
   "fused_concept_chain": ["merged_concept1", "merged_concept2", ...],
-  "rejected_concepts": ["concept_not_similar_enough"],
   "response": "Final answer with verified reasoning"
 }
 ```

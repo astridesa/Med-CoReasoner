@@ -375,14 +375,11 @@ class CoReasoner:
             "question": data["question"],
             "options": data.get("options", ""),
             "answer_idx": data.get("answer_idx", 0),
-            "en_answer": en_anwer,
             "en_reasoning": en_reasoning,
-            "local_answer": local_answer,
             "local_reasoning": local_reasoning,
             "en_concept_chain": en_concept_chain,
             "local_concept_chain": local_concept_chain,
             "fused_concept_chain": fused_concept_chain,
-            "rejected_concepts": rejected_concepts,
             "response": response,
         }
         if output_file is not None:

@@ -74,7 +74,7 @@ GEMINI_API_KEY="your-gemini-api-key"
 The RAG system requires a medical corpus. Place your corpus in:
 
 ```
-codes/CLARA/corpus/
+corpus/
 └── msd/
     ├── en/
     │   ├── chunk/

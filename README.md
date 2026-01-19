@@ -23,15 +23,15 @@ Medical Question (Multiple Languages)
         │
         ▼
     ┌─────────────────────────────────────────┐
-    │              RETRIEVER                   │
-    │   RAG: Medical Documents (MSD Corpus)   │
+    │               FUSION                     │
+    │   Embedding-based Concept Merging       │
+    │   (BGE-M3 Similarity Matching)          │
     └─────────────────────────────────────────┘
         │
         ▼
     ┌─────────────────────────────────────────┐
-    │               FUSION                     │
-    │   Embedding-based Concept Merging       │
-    │   (BGE-M3 Similarity Matching)          │
+    │              RETRIEVER                   │
+    │   RAG: Medical Documents (MSD Corpus)   │
     └─────────────────────────────────────────┘
         │
         ▼
